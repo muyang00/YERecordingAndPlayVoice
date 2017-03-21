@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B483EC2A1E7FC842003A7319 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B483EC291E7FC842003A7319 /* main.m */; };
+		B483EC2D1E7FC842003A7319 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B483EC2C1E7FC842003A7319 /* AppDelegate.m */; };
+		B483EC301E7FC842003A7319 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B483EC2F1E7FC842003A7319 /* ViewController.m */; };
+		B483EC331E7FC842003A7319 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B483EC311E7FC842003A7319 /* Main.storyboard */; };
+		B483EC361E7FC842003A7319 /* YERecordingVoicePlay.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B483EC341E7FC842003A7319 /* YERecordingVoicePlay.xcdatamodeld */; };
+		B483EC381E7FC842003A7319 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B483EC371E7FC842003A7319 /* Assets.xcassets */; };
+		B483EC3B1E7FC842003A7319 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B483EC391E7FC842003A7319 /* LaunchScreen.storyboard */; };
+		B483EC461E7FC842003A7319 /* YERecordingVoicePlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B483EC451E7FC842003A7319 /* YERecordingVoicePlayTests.m */; };
+		B483EC511E7FC842003A7319 /* YERecordingVoicePlayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B483EC501E7FC842003A7319 /* YERecordingVoicePlayUITests.m */; };
+		B483EC631E7FC8EE003A7319 /* YERecordVoiceTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B483EC621E7FC8EE003A7319 /* YERecordVoiceTool.m */; };
+		B483ECAF1E80D954003A7319 /* mic_0.png in Resources */ = {isa = PBXBuildFile; fileRef = B483ECA71E80D954003A7319 /* mic_0.png */; };
+		B483ECB01E80D954003A7319 /* mic_1.png in Resources */ = {isa = PBXBuildFile; fileRef = B483ECA81E80D954003A7319 /* mic_1.png */; };
+		B483ECB11E80D954003A7319 /* mic_2.png in Resources */ = {isa = PBXBuildFile; fileRef = B483ECA91E80D954003A7319 /* mic_2.png */; };
+		B483ECB21E80D954003A7319 /* mic_3.png in Resources */ = {isa = PBXBuildFile; fileRef = B483ECAA1E80D954003A7319 /* mic_3.png */; };
+		B483ECB31E80D954003A7319 /* mic_4.png in Resources */ = {isa = PBXBuildFile; fileRef = B483ECAB1E80D954003A7319 /* mic_4.png */; };
+		B483ECB41E80D954003A7319 /* mic_5.png in Resources */ = {isa = PBXBuildFile; fileRef = B483ECAC1E80D954003A7319 /* mic_5.png */; };
+		B483ECB51E80D954003A7319 /* mic_6.png in Resources */ = {isa = PBXBuildFile; fileRef = B483ECAD1E80D954003A7319 /* mic_6.png */; };
+		B483ECB61E80D954003A7319 /* mic_7.png in Resources */ = {isa = PBXBuildFile; fileRef = B483ECAE1E80D954003A7319 /* mic_7.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B483EC421E7FC842003A7319 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B483EC1D1E7FC842003A7319 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B483EC241E7FC842003A7319;
+			remoteInfo = YERecordingVoicePlay;
+		};
+		B483EC4D1E7FC842003A7319 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B483EC1D1E7FC842003A7319 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B483EC241E7FC842003A7319;
+			remoteInfo = YERecordingVoicePlay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B483EC251E7FC842003A7319 /* YERecordingVoicePlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YERecordingVoicePlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B483EC291E7FC842003A7319 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B483EC2B1E7FC842003A7319 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B483EC2C1E7FC842003A7319 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B483EC2E1E7FC842003A7319 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B483EC2F1E7FC842003A7319 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B483EC321E7FC842003A7319 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B483EC351E7FC842003A7319 /* YERecordingVoicePlay.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YERecordingVoicePlay.xcdatamodel; sourceTree = "<group>"; };
+		B483EC371E7FC842003A7319 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B483EC3A1E7FC842003A7319 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B483EC3C1E7FC842003A7319 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B483EC411E7FC842003A7319 /* YERecordingVoicePlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YERecordingVoicePlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B483EC451E7FC842003A7319 /* YERecordingVoicePlayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YERecordingVoicePlayTests.m; sourceTree = "<group>"; };
+		B483EC471E7FC842003A7319 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B483EC4C1E7FC842003A7319 /* YERecordingVoicePlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YERecordingVoicePlayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B483EC501E7FC842003A7319 /* YERecordingVoicePlayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YERecordingVoicePlayUITests.m; sourceTree = "<group>"; };
+		B483EC521E7FC842003A7319 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B483EC611E7FC8EE003A7319 /* YERecordVoiceTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YERecordVoiceTool.h; sourceTree = "<group>"; };
+		B483EC621E7FC8EE003A7319 /* YERecordVoiceTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YERecordVoiceTool.m; sourceTree = "<group>"; };
+		B483ECA71E80D954003A7319 /* mic_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mic_0.png; sourceTree = "<group>"; };
+		B483ECA81E80D954003A7319 /* mic_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mic_1.png; sourceTree = "<group>"; };
+		B483ECA91E80D954003A7319 /* mic_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mic_2.png; sourceTree = "<group>"; };
+		B483ECAA1E80D954003A7319 /* mic_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mic_3.png; sourceTree = "<group>"; };
+		B483ECAB1E80D954003A7319 /* mic_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mic_4.png; sourceTree = "<group>"; };
+		B483ECAC1E80D954003A7319 /* mic_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mic_5.png; sourceTree = "<group>"; };
+		B483ECAD1E80D954003A7319 /* mic_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mic_6.png; sourceTree = "<group>"; };
+		B483ECAE1E80D954003A7319 /* mic_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mic_7.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B483EC221E7FC842003A7319 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B483EC3E1E7FC842003A7319 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B483EC491E7FC842003A7319 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B483EC1C1E7FC842003A7319 = {
+			isa = PBXGroup;
+			children = (
+				B483EC271E7FC842003A7319 /* YERecordingVoicePlay */,
+				B483EC441E7FC842003A7319 /* YERecordingVoicePlayTests */,
+				B483EC4F1E7FC842003A7319 /* YERecordingVoicePlayUITests */,
+				B483EC261E7FC842003A7319 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B483EC261E7FC842003A7319 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B483EC251E7FC842003A7319 /* YERecordingVoicePlay.app */,
+				B483EC411E7FC842003A7319 /* YERecordingVoicePlayTests.xctest */,
+				B483EC4C1E7FC842003A7319 /* YERecordingVoicePlayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B483EC271E7FC842003A7319 /* YERecordingVoicePlay */ = {
+			isa = PBXGroup;
+			children = (
+				B483ECA61E80D954003A7319 /* images */,
+				B483EC2B1E7FC842003A7319 /* AppDelegate.h */,
+				B483EC2C1E7FC842003A7319 /* AppDelegate.m */,
+				B483EC2E1E7FC842003A7319 /* ViewController.h */,
+				B483EC2F1E7FC842003A7319 /* ViewController.m */,
+				B483EC611E7FC8EE003A7319 /* YERecordVoiceTool.h */,
+				B483EC621E7FC8EE003A7319 /* YERecordVoiceTool.m */,
+				B483EC311E7FC842003A7319 /* Main.storyboard */,
+				B483EC371E7FC842003A7319 /* Assets.xcassets */,
+				B483EC391E7FC842003A7319 /* LaunchScreen.storyboard */,
+				B483EC3C1E7FC842003A7319 /* Info.plist */,
+				B483EC341E7FC842003A7319 /* YERecordingVoicePlay.xcdatamodeld */,
+				B483EC281E7FC842003A7319 /* Supporting Files */,
+			);
+			path = YERecordingVoicePlay;
+			sourceTree = "<group>";
+		};
+		B483EC281E7FC842003A7319 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B483EC291E7FC842003A7319 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B483EC441E7FC842003A7319 /* YERecordingVoicePlayTests */ = {
+			isa = PBXGroup;
+			children = (
+				B483EC451E7FC842003A7319 /* YERecordingVoicePlayTests.m */,
+				B483EC471E7FC842003A7319 /* Info.plist */,
+			);
+			path = YERecordingVoicePlayTests;
+			sourceTree = "<group>";
+		};
+		B483EC4F1E7FC842003A7319 /* YERecordingVoicePlayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B483EC501E7FC842003A7319 /* YERecordingVoicePlayUITests.m */,
+				B483EC521E7FC842003A7319 /* Info.plist */,
+			);
+			path = YERecordingVoicePlayUITests;
+			sourceTree = "<group>";
+		};
+		B483ECA61E80D954003A7319 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				B483ECA71E80D954003A7319 /* mic_0.png */,
+				B483ECA81E80D954003A7319 /* mic_1.png */,
+				B483ECA91E80D954003A7319 /* mic_2.png */,
+				B483ECAA1E80D954003A7319 /* mic_3.png */,
+				B483ECAB1E80D954003A7319 /* mic_4.png */,
+				B483ECAC1E80D954003A7319 /* mic_5.png */,
+				B483ECAD1E80D954003A7319 /* mic_6.png */,
+				B483ECAE1E80D954003A7319 /* mic_7.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B483EC241E7FC842003A7319 /* YERecordingVoicePlay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B483EC551E7FC842003A7319 /* Build configuration list for PBXNativeTarget "YERecordingVoicePlay" */;
+			buildPhases = (
+				B483EC211E7FC842003A7319 /* Sources */,
+				B483EC221E7FC842003A7319 /* Frameworks */,
+				B483EC231E7FC842003A7319 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YERecordingVoicePlay;
+			productName = YERecordingVoicePlay;
+			productReference = B483EC251E7FC842003A7319 /* YERecordingVoicePlay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B483EC401E7FC842003A7319 /* YERecordingVoicePlayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B483EC581E7FC842003A7319 /* Build configuration list for PBXNativeTarget "YERecordingVoicePlayTests" */;
+			buildPhases = (
+				B483EC3D1E7FC842003A7319 /* Sources */,
+				B483EC3E1E7FC842003A7319 /* Frameworks */,
+				B483EC3F1E7FC842003A7319 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B483EC431E7FC842003A7319 /* PBXTargetDependency */,
+			);
+			name = YERecordingVoicePlayTests;
+			productName = YERecordingVoicePlayTests;
+			productReference = B483EC411E7FC842003A7319 /* YERecordingVoicePlayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B483EC4B1E7FC842003A7319 /* YERecordingVoicePlayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B483EC5B1E7FC842003A7319 /* Build configuration list for PBXNativeTarget "YERecordingVoicePlayUITests" */;
+			buildPhases = (
+				B483EC481E7FC842003A7319 /* Sources */,
+				B483EC491E7FC842003A7319 /* Frameworks */,
+				B483EC4A1E7FC842003A7319 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B483EC4E1E7FC842003A7319 /* PBXTargetDependency */,
+			);
+			name = YERecordingVoicePlayUITests;
+			productName = YERecordingVoicePlayUITests;
+			productReference = B483EC4C1E7FC842003A7319 /* YERecordingVoicePlayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B483EC1D1E7FC842003A7319 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = yongen;
+				TargetAttributes = {
+					B483EC241E7FC842003A7319 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					B483EC401E7FC842003A7319 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B483EC241E7FC842003A7319;
+					};
+					B483EC4B1E7FC842003A7319 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B483EC241E7FC842003A7319;
+					};
+				};
+			};
+			buildConfigurationList = B483EC201E7FC842003A7319 /* Build configuration list for PBXProject "YERecordingVoicePlay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B483EC1C1E7FC842003A7319;
+			productRefGroup = B483EC261E7FC842003A7319 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B483EC241E7FC842003A7319 /* YERecordingVoicePlay */,
+				B483EC401E7FC842003A7319 /* YERecordingVoicePlayTests */,
+				B483EC4B1E7FC842003A7319 /* YERecordingVoicePlayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B483EC231E7FC842003A7319 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B483ECB51E80D954003A7319 /* mic_6.png in Resources */,
+				B483ECB31E80D954003A7319 /* mic_4.png in Resources */,
+				B483ECB21E80D954003A7319 /* mic_3.png in Resources */,
+				B483ECB41E80D954003A7319 /* mic_5.png in Resources */,
+				B483ECB01E80D954003A7319 /* mic_1.png in Resources */,
+				B483ECAF1E80D954003A7319 /* mic_0.png in Resources */,
+				B483ECB61E80D954003A7319 /* mic_7.png in Resources */,
+				B483ECB11E80D954003A7319 /* mic_2.png in Resources */,
+				B483EC3B1E7FC842003A7319 /* LaunchScreen.storyboard in Resources */,
+				B483EC381E7FC842003A7319 /* Assets.xcassets in Resources */,
+				B483EC331E7FC842003A7319 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B483EC3F1E7FC842003A7319 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B483EC4A1E7FC842003A7319 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B483EC211E7FC842003A7319 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B483EC631E7FC8EE003A7319 /* YERecordVoiceTool.m in Sources */,
+				B483EC361E7FC842003A7319 /* YERecordingVoicePlay.xcdatamodeld in Sources */,
+				B483EC301E7FC842003A7319 /* ViewController.m in Sources */,
+				B483EC2D1E7FC842003A7319 /* AppDelegate.m in Sources */,
+				B483EC2A1E7FC842003A7319 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B483EC3D1E7FC842003A7319 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B483EC461E7FC842003A7319 /* YERecordingVoicePlayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B483EC481E7FC842003A7319 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B483EC511E7FC842003A7319 /* YERecordingVoicePlayUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B483EC431E7FC842003A7319 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B483EC241E7FC842003A7319 /* YERecordingVoicePlay */;
+			targetProxy = B483EC421E7FC842003A7319 /* PBXContainerItemProxy */;
+		};
+		B483EC4E1E7FC842003A7319 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B483EC241E7FC842003A7319 /* YERecordingVoicePlay */;
+			targetProxy = B483EC4D1E7FC842003A7319 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B483EC311E7FC842003A7319 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B483EC321E7FC842003A7319 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B483EC391E7FC842003A7319 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B483EC3A1E7FC842003A7319 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B483EC531E7FC842003A7319 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B483EC541E7FC842003A7319 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B483EC561E7FC842003A7319 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = YERecordingVoicePlay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YERecordingVoicePlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B483EC571E7FC842003A7319 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = YERecordingVoicePlay/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YERecordingVoicePlay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B483EC591E7FC842003A7319 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YERecordingVoicePlayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YERecordingVoicePlayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YERecordingVoicePlay.app/YERecordingVoicePlay";
+			};
+			name = Debug;
+		};
+		B483EC5A1E7FC842003A7319 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YERecordingVoicePlayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YERecordingVoicePlayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YERecordingVoicePlay.app/YERecordingVoicePlay";
+			};
+			name = Release;
+		};
+		B483EC5C1E7FC842003A7319 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YERecordingVoicePlayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YERecordingVoicePlayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YERecordingVoicePlay;
+			};
+			name = Debug;
+		};
+		B483EC5D1E7FC842003A7319 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YERecordingVoicePlayUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.YERecordingVoicePlayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YERecordingVoicePlay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B483EC201E7FC842003A7319 /* Build configuration list for PBXProject "YERecordingVoicePlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B483EC531E7FC842003A7319 /* Debug */,
+				B483EC541E7FC842003A7319 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B483EC551E7FC842003A7319 /* Build configuration list for PBXNativeTarget "YERecordingVoicePlay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B483EC561E7FC842003A7319 /* Debug */,
+				B483EC571E7FC842003A7319 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B483EC581E7FC842003A7319 /* Build configuration list for PBXNativeTarget "YERecordingVoicePlayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B483EC591E7FC842003A7319 /* Debug */,
+				B483EC5A1E7FC842003A7319 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B483EC5B1E7FC842003A7319 /* Build configuration list for PBXNativeTarget "YERecordingVoicePlayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B483EC5C1E7FC842003A7319 /* Debug */,
+				B483EC5D1E7FC842003A7319 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B483EC341E7FC842003A7319 /* YERecordingVoicePlay.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B483EC351E7FC842003A7319 /* YERecordingVoicePlay.xcdatamodel */,
+			);
+			currentVersion = B483EC351E7FC842003A7319 /* YERecordingVoicePlay.xcdatamodel */;
+			path = YERecordingVoicePlay.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B483EC1D1E7FC842003A7319 /* Project object */;
+}
