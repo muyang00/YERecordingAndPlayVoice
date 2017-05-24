@@ -144,14 +144,27 @@ static id instance;
         NSMutableDictionary *setting = [NSMutableDictionary dictionary];
         // 音频格式
         setting[AVFormatIDKey] = @(kAudioFormatAppleIMA4);
-        // 录音采样率(Hz) 如：AVSampleRateKey==8000/44100/96000（影响音频的质量）
+        // 录音采样率(Hz) 如：AVSampleRateKey==8000/44100/96000（影响音频的质量）8000是电话采样率
         setting[AVSampleRateKey] = @(44100);
         // 音频通道数 1 或 2
         setting[AVNumberOfChannelsKey] = @(1);
-        // 线性音频的位深度  8、16、24、32
+        // 线性音频的位深度  8、16、24、32、 每个采样点位数
         setting[AVLinearPCMBitDepthKey] = @(8);
         //录音的质量
         setting[AVEncoderAudioQualityKey] = [NSNumber numberWithInt:AVAudioQualityHigh];
+        
+      /*
+       //设置录音格式
+        [setting setObject:@(kAudioFormatLinearPCM) forKey:AVFormatIDKey];
+        //设置录音采样率，8000是电话采样率，对于一般录音已经够了
+        [setting setObject:@(8000) forKey:AVSampleRateKey];
+        //设置通道，这里采用单声道
+        [setting setObject:@(1) forKey:AVNumberOfChannelsKey];
+        //每个采样点位数，分为8、16、24、32
+        [setting setObject:@(8) forKey:AVLinearPCMBitDepthKey];
+        //是否使用浮点数采样
+        [setting setObject:@(YES) forKey:AVLinearPCMIsFloatKey];
+        */
         
         _recorder = [[AVAudioRecorder alloc] initWithURL:self.recordFileUrl settings:setting error:NULL];
         _recorder.delegate = self;
